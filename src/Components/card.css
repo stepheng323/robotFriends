@@ -1,0 +1,23 @@
+.card {
+	background-color: rgb(122, 204, 122);
+	padding: 8px;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 0.8em;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+.card:hover {
+	transform: scale(1.05);
+}
+.user-info h2,
+.user-info p {
+	color: rgb(58, 56, 56);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+.user-info p {
+	font-size: 0.9em;
+	text-transform: lowercase;
+}

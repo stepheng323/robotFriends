@@ -1,0 +1,22 @@
+.App {
+	width: 80%;
+	margin: auto;
+}
+.header {
+	font-size: 2em;
+  text-align: center;
+  color: #ffffff;
+}
+.cardlist {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 0.8;
+	grid-column-gap: 1em;
+}
+.input-container {
+	text-align: center;
+	padding: 1em;
+}
+.input {
+	padding: 0.5em;
+}
