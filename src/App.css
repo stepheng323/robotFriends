@@ -5,7 +5,8 @@
 .header {
 	font-size: 2em;
   text-align: center;
-  color: #ffffff;
+	color: #ffffff;
+	margin-bottom: 1em;
 }
 .cardlist {
 	display: grid;
@@ -19,4 +20,60 @@
 }
 .input {
 	padding: 0.5em;
+}
+.details {
+display: flex;
+flex-direction: column;
+}
+.details h2{
+	font-size: 22px;
+	text-align: left;
+}
+.detailsHeader {
+	font-size: 2em;
+	color: #fff;
+	margin: 0;
+}
+.body{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 5em;
+	margin-top: 2em;
+}
+
+.img{
+	width: 350px;
+}
+.img img{
+	background-color: rgb(202, 199, 199);
+	border-radius: 10px;
+	width: 90%; 
+	height: 450px;
+	object-fit: cover;
+	margin: 0 0 0 0 ;
+}
+.info h2{
+	text-align: left;
+	margin: 0 0 0.8em 0;
+	color: #ffffff;
+}
+
+.info p{
+	line-height: 2em;
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0 0 1em 0;
+}
+
+.info .btn{
+	padding: 12px 10px;
+	background-color: 	rgba(0, 128, 128, 1);
+	width:20%;
+	border: none;
+	/* margin: 1em; */
+	margin-top: 5px;
+	border-radius: 4px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
 }

@@ -1,29 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import { robotsList } from './Components/Robots';
-import CardList from './Components/CardList';
-import Search from './Components/Search';
-import Scroll from './Components/Scroll';
+import Home from './Components/Home' 
+import RobotDetails from './Components/RobotDetails';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 const App = () => {
-	const [robots, setRobots] = useState(robotsList);
-	const [search, setSearch] = useState('');
-
-	const onSearchChange = e => {
-		setSearch(e.target.value);
-	};
-	const filteredRobots = robots.filter(robot => {
-		return robot.name.toLowerCase().includes(search.toLowerCase());
-	});
 	return (
-		<div className='App'>
-			<h1 className='header'>Robot Friends</h1>
-			<Search searchChange={onSearchChange} />
-			<Scroll>
-				<CardList robots={filteredRobots} />
-			</Scroll>
-		</div>
+		<Router>
+				<div className='App'>
+					<Route path="/" exact component={ Home }/>
+					<Route path="/robot/:id" component={RobotDetails} />
+				</div>
+		</Router>
 	);
 };
 
 export default App;
+
