@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/robotFriends/static/css/main.7dcd6075.chunk.css",
-    "main.js": "/robotFriends/static/js/main.2c56ded9.chunk.js",
-    "main.js.map": "/robotFriends/static/js/main.2c56ded9.chunk.js.map",
+    "main.css": "/robotFriends/static/css/main.ef2f27a9.chunk.css",
+    "main.js": "/robotFriends/static/js/main.c4f426d6.chunk.js",
+    "main.js.map": "/robotFriends/static/js/main.c4f426d6.chunk.js.map",
     "runtime-main.js": "/robotFriends/static/js/runtime-main.530bf0d8.js",
     "runtime-main.js.map": "/robotFriends/static/js/runtime-main.530bf0d8.js.map",
-    "static/js/2.cab739f4.chunk.js": "/robotFriends/static/js/2.cab739f4.chunk.js",
-    "static/js/2.cab739f4.chunk.js.map": "/robotFriends/static/js/2.cab739f4.chunk.js.map",
+    "static/js/2.3beca0ed.chunk.js": "/robotFriends/static/js/2.3beca0ed.chunk.js",
+    "static/js/2.3beca0ed.chunk.js.map": "/robotFriends/static/js/2.3beca0ed.chunk.js.map",
     "index.html": "/robotFriends/index.html",
-    "precache-manifest.50805e5ffda786a7c6aa46baefde219f.js": "/robotFriends/precache-manifest.50805e5ffda786a7c6aa46baefde219f.js",
+    "precache-manifest.abfbcddf96f72ed6471623505f4cf447.js": "/robotFriends/precache-manifest.abfbcddf96f72ed6471623505f4cf447.js",
     "service-worker.js": "/robotFriends/service-worker.js",
-    "static/css/main.7dcd6075.chunk.css.map": "/robotFriends/static/css/main.7dcd6075.chunk.css.map",
-    "static/js/2.cab739f4.chunk.js.LICENSE": "/robotFriends/static/js/2.cab739f4.chunk.js.LICENSE"
+    "static/css/main.ef2f27a9.chunk.css.map": "/robotFriends/static/css/main.ef2f27a9.chunk.css.map",
+    "static/js/2.3beca0ed.chunk.js.LICENSE": "/robotFriends/static/js/2.3beca0ed.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.530bf0d8.js",
-    "static/js/2.cab739f4.chunk.js",
-    "static/css/main.7dcd6075.chunk.css",
-    "static/js/main.2c56ded9.chunk.js"
+    "static/js/2.3beca0ed.chunk.js",
+    "static/css/main.ef2f27a9.chunk.css",
+    "static/js/main.c4f426d6.chunk.js"
   ]
 }
